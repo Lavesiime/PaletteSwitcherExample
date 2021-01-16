@@ -1,0 +1,52 @@
+{
+	"Metadata":
+	{
+		"Name": "In-game palette switcher example",
+		"Author": "Lave sIime",
+		"Description": "An example of a mod that lets you change character palettes from the mod settings rather than swapping files around",
+		"ModVersion": "1.0",
+		"GameVersion": "20.04.26.0"
+	},
+	"Settings":
+	{
+		"Something":
+		[
+			{
+				"InternalName": "SonicPalette",
+				"DisplayName": "Sonic Palette",
+				//"Category": "Gameplay",
+				"Variable": "SonicPalette",
+				"DefaultValue": "1",
+				"Options":
+				{
+					"0": "Normal",
+					"1": "Custom"
+				}
+			},
+			{
+				"InternalName": "TailsPalette",
+				"DisplayName": "Tails Palette",
+				//"Category": "Gameplay",
+				"Variable": "TailsPalette",
+				"DefaultValue": "1",
+				"Options":
+				{
+					"0": "Normal",
+					"1": "Custom"
+				}
+			},
+			{
+				"InternalName": "KnucklesPalette",
+				"DisplayName": "Knuckles Palette",
+				//"Category": "Gameplay",
+				"Variable": "KnucklesPalette",
+				"DefaultValue": "1",
+				"Options":
+				{
+					"0": "Normal",
+					"1": "Custom"
+				}
+			}
+		]
+	}
+}

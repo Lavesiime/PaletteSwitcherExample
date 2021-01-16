@@ -1,0 +1,23 @@
+global u8 SonicPalette
+global u8 TailsPalette
+global u8 KnucklesPalette
+
+function u64 getCharacterPaletteKey(u8 character)
+{
+	if ((character == CHARACTER_SONIC) && (SonicPalette == 1))
+	{
+		return "character_palette_sonic_alt"
+	}
+
+	if ((character == CHARACTER_TAILS) && (TailsPalette == 1))
+	{
+		return "character_palette_tails_alt"
+	}
+
+	if ((character == CHARACTER_KNUCKLES) && (KnucklesPalette == 1))
+	{
+		return "character_palette_knuckles_alt"
+	}
+
+	return base.getCharacterPaletteKey(character)
+}
